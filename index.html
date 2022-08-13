@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="css/index.css" rel="stylesheet">
+<script src="js/scripts.js"></script> 
+
+</head>
+<body>
+
+
+<div class="row1">
+	<img src="images/profile.jpeg" width="200px" height="200px"/>
+</div>
+<div class="rowTitle">
+	<h1> Sanam Lakhotra  </h1> 
+	<p><a style="color:white"> Web Developer , Software Engineer   </a>    </p>
+	<input type="button" value="Resume" class="buttonResume" style="">
+	<input type="button" value="Contact Me" class="buttonContactMe"style="">
+</div>
+
+<div class="row3">
+	<div class="row3Left">
+		<h1>   About Me and Academic Honesty   </h1>
+
+		<p> 
+		<br>
+Honesty Statement: 
+I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
+<br>
+<br>
+		  Date: <b>Aug 12, 2022</b>
+
+
+
+
+
+
+
+
+		</p>
+
+
+	</div>
+	<div class="row3Right">
+		<table   width="100%"  cellspacing="20" align="center" style="text-align:left;">
+			<tr><td colspan="2" align="center" style="padding:10px;background-color:black;color:white;"> BASIC INFORMATION</td></tr>
+		<tr><th width="40%">AGE:</th><td>19</td></tr>
+		<tr><th>E MAIL: </th><td> Ss@gmail.com</td></tr>
+		<tr><th>LANGUAGE: </th><td> English</td></tr>
+		<tr><th>CLASS SECTION:</th><td>ZBB </td></tr>
+		<tr><th>STUDENT ID: </th><td>  WEB222 </td></tr>
+		<tr><th>INSTRUCTOR: </th><td> Norman atique  </td></tr>
+
+
+
+		</table>
+	</div>
+
+</div>
+
+<div class="Edu">
+<h1 class="EduTitle">Academic Details</h1>
+	<div class="Edu1Left">
+	  <h2>Senior Secondary</h2>
+	</div>
+	<div class="Edu1Right">
+	<p>Board: <span class="Edu1RightTitle">Punjab School Education Board</span>,
+	   Marks: <span class="Edu1RightMarks">75%</span>,
+       Year: 	<span class="Edu1RightYears">2021<span>
+	</p>
+		
+	
+	</div>
+	<div class="Edu1Left">
+	 <h2>Matriculation</h2>
+	</div>
+	<div class="Edu1Right">
+	<p>Board: <span class="Edu1RightTitle">Punjab School Education Board</span>,
+	   Marks: <span class="Edu1RightMarks">73%</span>,
+       Year: 	<span class="Edu1RightYears">2018<span>
+	</p>
+	</div>
+	
+</div>
+
+<div class="Hobbies">
+<h1 class="HobbiesTitle">Hobbies Details</h1>
+	<div class="hobbiesBox">
+	  <img src="images/football.png" alt="Avatar" class="imageHobbies">
+	  <div class="hobbiesOverlay">
+		<div class="hobbiesText">Football</div>
+	  </div>
+	</div>
+	<div class="hobbiesBox">
+	  <img src="images/music.png" alt="Avatar" class="imageHobbies">
+	  <div class="hobbiesOverlay">
+		<div class="hobbiesText">Music</div>
+	  </div>
+	</div>
+	<div class="hobbiesBox">
+	  <img src="images/travelling.png" alt="Avatar" class="imageHobbies">
+	  <div class="hobbiesOverlay">
+		<div class="hobbiesText">Traveling</div>
+	  </div>
+	</div>
+</div>
+
+
+
+  <div class="container">
+  
+    <div class="screen">
+     
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT US</span>
+          <img src="images/contact.png" width="100%" height="100%"/>
+          </div>
+       
+        </div>
+        <div class="screen-body-item">
+		<form method="get">	
+		 <div class="app-form">
+            <div class="app-form-group">
+              <input type="text" class="app-form-control" required placeholder="NAME" id="NAME">
+            </div>
+            <div class="app-form-group">
+              <input type="email" class="app-form-control" required placeholder="EMAIL" id="EMAIL">
+            </div>
+			<div class="app-form-group">
+              <textarea class="app-form-control" required placeholder="ADDRESS" id="ADDRESS"></textarea>
+            </div>
+            <div class="app-form-group">
+             <input class="app-form-control" placeholder="City" list="citie" name="CITIES" id="CITIES">
+
+					<datalist id="citie">
+					  <option value="Toronto">
+					  <option value="Montreal">
+					  <option value="Ottawa">
+					  <option value="Calgary">
+					  <option value="Victoria">
+					</datalist>
+            </div> 
+			
+			<div class="app-form-group">
+		     What this is About?<br><br>
+              <input type="radio" name="What" id="Question" value="Question" onclick="checkWhatHide()">Question
+              <input type="radio" name="What" id="Hiring" value="Hiring" onclick="checkWhatShow()">Hiring
+              <input type="radio" name="What" id="Comment" value="Comment" onclick="checkWhatHide()">Comment
+			  <div class="app-form-group" id="HourRate">
+              <input type="text" class="app-form-control"  placeholder="Hourly Rate" id="HourlyRate">
+            </div>
+            </div>
+			<div class="app-form-group">
+              <input type="text" class="app-form-control" required placeholder="CONTACT" id="CONTACT">
+            </div>
+            <div class="app-form-group message">
+               <textarea class="app-form-control" required placeholder="MESSAGE" id="MESSAGE"></textarea>
+           </div>
+            <div class="app-form-group buttons">
+              <input type="reset" class="app-form-button" value="CANCEL" />
+               <input type="button" class="app-form-button" value="SEND" onclick="check()"/>
+            </div>
+          </div>
+		  </form>
+        </div>
+      </div>
+    </div>
+ 
+</div>
+ 
+</body>
+</html>
