@@ -197,7 +197,7 @@ body{height:100%;width:100%;background-color:rgb(67,78,228)}
 
 
  
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .screen-body {    padding: 40px; display: block; }
 
   .screen-body-item {padding:5px;}
