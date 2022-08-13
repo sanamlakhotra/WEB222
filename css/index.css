@@ -3,11 +3,11 @@ body{height:100%;width:100%;background-color:rgb(67,78,228)}
 .row1{width:200px;margin:5% auto 10px;}
 
 .rowTitle{width:30%;margin:0px auto;text-align:center;height:200px;}
-.row3{clear:both;width:100%;height:500px;font-size:20px;background-color: white;}
-.row3Left{width:50%;font-size:16px;float: left;padding:20px;box-sizing:border-box;}
+.row3{clear:both;width:100%;height:400px;font-size:20px;background-color: white;}
+.row3Left{width:50%;font-size:20px;float: left;padding:20px;box-sizing:border-box;}
 .row3Right{width:50%;font-size:20px;float: left;padding:20px;box-sizing:border-box;}
-.buttonResume{border:1px white;height:30px; width:200px;border-radius:22px}
-.buttonContactMe{border:1px black;height:30px; width:200px;border-radius:22px;background-color:black;color:white}
+.buttonContactMe{display:inline-block;border:1px black;padding:10px; width:150px;border-radius:22px;background-color:black;color:white}
+.buttonResume{display:inline-block;border:1px black;padding:10px;width:150px;border-radius:22px;background-color:black;color:white}
 .Edu{clear:both;padding:20px;height:340px;box-sizing:border-box;margin:20px 0px;background-color:white;}
 .EduTitle{Text-align:center;}
 .Edu1Left{color:white;text-align:center;box-shadow:1px 1px 10px grey;width:30%;height:80px;background-color:rgb(67,78,228);float:left;margin:10px 0px;}
@@ -197,7 +197,7 @@ body{height:100%;width:100%;background-color:rgb(67,78,228)}
 
 
  
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .screen-body {    padding: 40px; display: block; }
 
   .screen-body-item {padding:5px;}
@@ -205,10 +205,10 @@ body{height:100%;width:100%;background-color:rgb(67,78,228)}
 .screen-body-item.left {padding:5px;}
 .rowTitle{width:100%;margin:0px auto;text-align:center;height:200px;}
 .row3{clear:both;width:100%;font-size:20px;background-color: white;}
-.row3Left{width:100%;font-size:20px;padding:20px;box-sizing:border-box;background-color: white;}
+.row3Left{width:100%;font-size:16px;padding:20px;box-sizing:border-box;background-color: white;}
 .row3Right{width:100%;font-size:20px;padding:20px;box-sizing:border-box;background-color: white;}
-.buttonResume{border:1px white;height:30px; width:200px;border-radius:22px}
-.buttonContactMe{border:1px black;height:30px; width:200px;border-radius:22px;background-color:black;color:white}
+.buttonContactMe{display:inline-block;border:1px black;height:30px; width:200px;border-radius:22px;background-color:black;color:white}
+.buttonResume{display:inline-block;border:1px black;height:30px; width:200px;border-radius:22px;background-color:black;color:white}
 
 .Edu{clear:both;padding:20px;height:600px;box-sizing:border-box;margin:20px 0px;background-color:white;}
 .EduTitle{Text-align:center;}
